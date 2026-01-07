@@ -1,0 +1,349 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Oussama Gattaoui | Portfolio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header class="hero">
+      <nav class="nav">
+        <span class="logo">OG</span>
+        <ul class="nav-links">
+          <li><a href="#about">About</a></li>
+          <li><a href="#skills">Skills</a></li>
+          <li><a href="#projects">Projects</a></li>
+          <li><a href="#hobbies">Hobbies</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+        <a
+          class="cta"
+          href="https://www.linkedin.com/in/oussama-gattaoui-32686b23a/"
+          target="_blank"
+          rel="noreferrer"
+          >Let’s Connect</a
+        >
+      </nav>
+      <div class="hero-content">
+        <div class="badge">Data Science & AI Student</div>
+        <h1>
+          Hi, I’m <span>Oussama Gattaoui</span> — exploring intelligent ways to
+          solve real-world challenges.
+        </h1>
+        <p>
+          First-year at ENSAM Rabat diving deep into data science, machine
+          learning, and the hardware that brings ideas to life. I love building
+          smart tools that make information clearer and decisions sharper.
+        </p>
+        <div class="hero-actions">
+          <a class="btn primary" href="#projects">View Projects</a>
+          <a class="btn secondary" href="#contact">Drop a Message</a>
+        </div>
+        <div class="stat-grid">
+          <div class="stat">
+            <span class="stat-number">3</span>
+            <span class="stat-label">Major Projects</span>
+          </div>
+          <div class="stat">
+            <span class="stat-number">+365</span>
+            <span class="stat-label">Days Chasing Ideas</span>
+          </div>
+          <div class="stat">
+            <span class="stat-number">∞</span>
+            <span class="stat-label">Curiosity</span>
+          </div>
+        </div>
+      </div>
+    </header>
+
+    <main>
+      <section id="about" class="section about">
+        <div class="section-heading">
+          <div class="eyebrow">About</div>
+          <h2>Blending data, code, and curiosity.</h2>
+        </div>
+        <div class="about-content">
+          <p>
+            I’m a first-year student at ENSAM Rabat focused on Data Science and
+            AI implementation. I’m fascinated by how intelligent systems can
+            improve real-life experiences—from optimizing energy usage to making
+            complex datasets understandable for everyone.
+          </p>
+          <p>
+            Whether I’m prototyping with Arduino or crafting data pipelines with
+            Python and SQL, my goal is the same: build solutions that feel
+            intuitive, impactful, and grounded in solid engineering. I thrive in
+            collaborative environments where challenges turn into learning
+            opportunities.
+          </p>
+          <div class="about-actions">
+            <button class="btn secondary" id="open-cv" aria-controls="cv-modal" aria-expanded="false">Learn more</button>
+          </div>
+        </div>
+      </section>
+
+      <section id="skills" class="section skills">
+        <div class="section-heading">
+          <div class="eyebrow">Toolkit</div>
+          <h2>Tech stack & soft skills</h2>
+        </div>
+        <div class="skill-grid">
+          <div class="skill-card">
+            <h3>Languages & Tools</h3>
+            <ul>
+              <li>Python (advanced)</li>
+              <li>SQL</li>
+              <li>C</li>
+              <li>HTML & CSS</li>
+            </ul>
+          </div>
+          <div class="skill-card">
+            <h3>Core Strengths</h3>
+            <ul>
+              <li>Data analysis & visualization</li>
+              <li>Machine learning foundations</li>
+              <li>Embedded prototyping (Arduino)</li>
+              <li>Problem-solving & teamwork</li>
+            </ul>
+          </div>
+          <div class="skill-card">
+            <h3>Currently Exploring</h3>
+            <ul>
+              <li>AI-driven automation</li>
+              <li>Smart hardware integrations</li>
+              <li>Clean data pipelines</li>
+            </ul>
+          </div>
+        </div>
+      </section>
+
+      <section id="projects" class="section projects">
+        <div class="section-heading">
+          <div class="eyebrow">Projects</div>
+          <h2>Turning ideas into intelligent systems</h2>
+        </div>
+        <div class="project-grid">
+          <article class="project-card">
+            <div class="project-meta">
+              <span class="project-tag">Hardware + AI</span>
+            </div>
+            <h3>Solar Tracker</h3>
+            <p>
+              Designed an Arduino-powered solar panel that follows the sun using
+              light sensors and real-time motor control. The result: a more
+              efficient way to capture renewable energy throughout the day.
+            </p>
+            <ul class="project-highlights">
+              <li>Custom sensor calibration in Python</li>
+              <li>Optimized motor responsiveness for accuracy</li>
+              <li>Explored sustainable energy applications</li>
+            </ul>
+          </article>
+          <article class="project-card">
+            <div class="project-meta">
+              <span class="project-tag">Data Product</span>
+            </div>
+            <h3>Smart Data Assistant</h3>
+            <p>
+              Built a flexible assistant that cleans, filters, sorts, summarizes,
+              and visualizes datasets on demand—giving users actionable insights
+              without heavyweight tools.
+            </p>
+            <ul class="project-highlights">
+              <li>Python-powered data transformations</li>
+              <li>Interactive filtering and chart generation</li>
+              <li>Focused on clarity for non-technical users</li>
+            </ul>
+          </article>
+
+          <article class="project-card">
+            <div class="project-meta">
+              <span class="project-tag">Security</span>
+            </div>
+            <h3>IDS / IPS Prototype</h3>
+            <p>
+              Python + Linux IDS/IPS prototype that inspects network traffic,
+              detects suspicious flows, and automates iptables/ipset rules to
+              mitigate threats in testbed environments.
+            </p>
+            <ul class="project-highlights">
+              <li>Packet capture and analysis modules for traffic inspection</li>
+              <li>Automated rule generation and deployment using iptables/ipset</li>
+              <li>Validated detection and response in controlled Linux testbeds</li>
+            </ul>
+          </article>
+        </div>
+      </section>
+
+      <section id="hobbies" class="section hobbies">
+        <div class="section-heading">
+          <div class="eyebrow">Beyond the screen</div>
+          <h2>Staying balanced fuels my creativity</h2>
+        </div>
+        <div class="hobby-grid">
+          <div class="hobby-card">
+            <h3>Football</h3>
+            <p>
+              Team play keeps my strategic thinking sharp and reminds me how
+              powerful collaboration can be.
+            </p>
+          </div>
+          <div class="hobby-card">
+            <h3>Gaming</h3>
+            <p>
+              I love exploring immersive worlds and analyzing the systems that
+              make them feel alive.
+            </p>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer id="contact" class="footer">
+      <div class="footer-content">
+        <h2>Let’s build something smart together.</h2>
+        <p>
+          I’m always ready to collaborate on innovative AI and data-driven
+          projects. Drop me a message and let’s explore the possibilities.
+        </p>
+        <div class="contact-links">
+          <a href="mailto:gattaouioussama@gmail.com">gattaouioussama@gmail.com</a>
+          <a href="https://github.com/Pitcha21" target="_blank" rel="noreferrer"
+            >GitHub</a
+          >
+          <a
+            href="https://www.linkedin.com/in/oussama-gattaoui-32686b23a/"
+            target="_blank"
+            rel="noreferrer"
+            >LinkedIn</a
+          >
+        </div>
+      </div>
+      <div class="footer-note">
+        <span>Designed with curiosity • 2025</span>
+      </div>
+    </footer>
+
+    <!-- Slide-over CV modal -->
+    <div id="cv-overlay" class="overlay" hidden></div>
+    <aside id="cv-modal" class="slide-over" role="dialog" aria-modal="true" aria-labelledby="cv-title" hidden>
+      <div class="slide-over-header">
+        <h2 id="cv-title">ATS-friendly Portfolio / CV</h2>
+        <div style="display:flex;gap:.6rem;align-items:center;">
+          <a class="btn primary" href="resume.html" target="_blank" rel="noopener noreferrer">Open Resume (Print)</a>
+          <button class="cv-close" id="cv-close" aria-label="Close CV">✕</button>
+        </div>
+      </div>
+      <div class="cv-content">
+        <section class="cv-section">
+          <h3>Summary — Data Science</h3>
+          <p>Data Science-focused State Engineer student with hands-on experience in Python, SQL, and data visualization tools. Seeking entry-level data roles to build reproducible pipelines and deliver actionable insights using data-driven methods, clean code, and clear communication.</p>
+        </section>
+        <section class="cv-section">
+          <h3>Summary — Cybersecurity</h3>
+          <p>Cybersecurity-focused State Engineer student experienced with Linux, network traffic analysis, and IDS/IPS automation. Seeking junior security or detection roles focused on threat detection, incident response, and defensive engineering using practical tooling and test-driven evaluations.</p>
+        </section>
+        <section class="cv-section">
+          <h3>Skills</h3>
+          <ul>
+            <li><strong>Programming:</strong> Python, SQL, Bash, C, C++, HTML, CSS</li>
+            <li><strong>Data:</strong> Pandas, NumPy, Matplotlib, Data Cleaning, Data Analysis, Visualization</li>
+            <li><strong>Security:</strong> Linux, IDS/IPS, iptables, ipset, Network Traffic Analysis, TCP/IP</li>
+            <li><strong>Tools:</strong> Git, GitHub, Linux</li>
+          </ul>
+        </section>
+        <section class="cv-section">
+          <h3>Projects</h3>
+          <h4>Data Handler — CV bullets</h4>
+          <ul>
+            <li>Designed and implemented a cross-platform Python desktop application for data cleaning, analysis and visualization using PyQt5, Pandas, NumPy and Matplotlib.</li>
+            <li>Automated ETL workflows to reduce manual preprocessing time by up to 70% on test datasets.</li>
+            <li>Delivered interactive visualization modules and exportable reports for non-technical stakeholders.</li>
+          </ul>
+          <h4>Data Handler — GitHub description</h4>
+          <p>Data Handler is a PyQt5 desktop application to streamline data cleaning, transformation, analysis and visualization. It supports interactive cleaning workflows, configurable transformation pipelines, and exportable charts and summary reports. The repository includes usage examples, test datasets and installation instructions.</p>
+
+          <h4>IDS/IPS — CV bullets</h4>
+          <ul>
+            <li>Developed a Python-based IDS/IPS prototype performing packet capture, anomaly detection and automated mitigation via iptables/ipset on Linux.</li>
+            <li>Designed modular detection heuristics and logging features to support investigation and tuning.</li>
+            <li>Created deployment scripts and validations to reduce detection-to-block latency and improve reproducibility in testbeds.</li>
+          </ul>
+          <h4>IDS/IPS — GitHub description</h4>
+          <p>An IDS/IPS prototype that combines Python-based traffic inspection with automated iptables/ipset rule deployment. Features include packet capture modules, signature and heuristic detection, rule generation scripts, and documentation for testbed setup and evaluation. The repo includes sample PCAPs, test scripts, and deployment guides.</p>
+
+          <h4>Solar Tracker — CV bullets</h4>
+          <ul>
+            <li>Built an Arduino-controlled solar tracking system with light-sensor feedback and motor control to improve energy capture efficiency.</li>
+            <li>Implemented sensor calibration routines and motor responsiveness tuning.</li>
+            <li>Explored sustainability-focused design and performance evaluation.</li>
+          </ul>
+          <h4>Solar Tracker — GitHub description</h4>
+          <p>Arduino-based solar tracker that uses light sensors and motor control to follow the sun. Includes sensor calibration code, motor control logic, and notes on efficiency testing and deployment considerations.</p>
+
+          <h4>Smart Data Assistant — CV bullets</h4>
+          <ul>
+            <li>Built a lightweight data assistant to clean, filter and visualize datasets on demand using Python tooling and automated scripts.</li>
+            <li>Implemented interactive filtering and chart generation to speed up exploratory analysis.</li>
+            <li>Focused on intuitive UX for non-technical users while ensuring reproducible outputs.</li>
+          </ul>
+          <h4>Smart Data Assistant — GitHub description</h4>
+          <p>A flexible data assistant that automates common data prep and visualization tasks. The repository provides examples, notebooks, and a CLI for batch operations, plus interactive chart templates for reports.</p>
+        </section>
+        <section class="cv-section">
+          <h3>Certifications</h3>
+          <ul>
+            <li>CS50 Python — Harvard University</li>
+            <li>SQL Advanced — HackerRank</li>
+          </ul>
+        </section>
+        <section class="cv-section">
+          <h3>Education</h3>
+          <p>Engineering Degree (State Engineer — Bac+5), Data Science, ENSAM Rabat, Morocco — Expected Graduation: 20XX</p>
+        </section>
+        <section class="cv-section">
+          <h3>Key Learnings / Core Competencies</h3>
+          <ul>
+            <li>Data handling, cleaning, and visualization with Python (Pandas, NumPy, Matplotlib)</li>
+            <li>Desktop GUI development with PyQt5 and user-focused design</li>
+            <li>SQL, data pipeline design and reproducible ETL practices</li>
+            <li>Network security fundamentals: Linux, IDS/IPS, iptables/ipset</li>
+            <li>Problem-solving, teamwork, technical documentation and project management</li>
+          </ul>
+        </section>
+        <section class="cv-section">
+          <h3>Languages & Links</h3>
+          <ul>
+            <li>Languages: Moroccan Arabic (native), French (fluent), English (proficient)</li>
+            <li>GitHub: https://github.com/Pitcha21</li>
+            <li>Portfolio: (add link)</li>
+          </ul>
+        </section>
+      </div>
+    </aside>
+
+    <script>
+      (function(){ 
+        const openBtn = document.getElementById('open-cv');
+        const overlay = document.getElementById('cv-overlay');
+        const modal = document.getElementById('cv-modal');
+        const closeBtn = document.getElementById('cv-close');
+        function open(){ overlay.hidden = false; modal.hidden = false; requestAnimationFrame(()=>{overlay.classList.add('open'); modal.classList.add('open'); openBtn.setAttribute('aria-expanded','true'); }); document.body.style.overflow='hidden'; closeBtn.focus(); }
+        function close(){ overlay.classList.remove('open'); modal.classList.remove('open'); openBtn.setAttribute('aria-expanded','false'); document.body.style.overflow=''; setTimeout(()=>{ overlay.hidden=true; modal.hidden=true; openBtn.focus(); }, 320); }
+        openBtn && openBtn.addEventListener('click', open);
+        closeBtn && closeBtn.addEventListener('click', close);
+        overlay && overlay.addEventListener('click', close);
+        document.addEventListener('keydown', (e)=>{ if(e.key==='Escape' && !modal.hidden) close(); });
+      })();
+    </script>
+
+  </body>
+</html>
+
